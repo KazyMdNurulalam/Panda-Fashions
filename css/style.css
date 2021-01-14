@@ -1,20 +1,26 @@
+
 body{
     font-family: 'Merriweather Sans', sans-serif;
 }
-.intro-heading, .price{
+header{
+    background-color: #FFFBF0;
+}
+.intro-header, .price{
     color: #FABE4C;
+    font-size: 60px;    
 }
-.intro-heading-2{
+.another-intro-header{
     color: #363958;
+    font-size: 60px;
 }
-.intro-btn{
+.confirmation-btn{
     background-color: #FA804C;
     border: 1px solid #FA804C;
     font-size: 20px;
 }
-.Woman-jkt-img{
+.Woman-jkt img{
     height: 60%;
-    padding: 35px;
+    padding: 50px;
     background-color: #F1F1F1;
     border-radius: 10px;
 }
@@ -29,6 +35,60 @@ body{
     border-radius: 20px;
     background: none;
 }
-.about-border{
+.card-border{
     border: none;
 }
+.carousel-bg{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width:320px) {
+    .intro-header, .price{
+        font-size: 28px;    
+    }
+    .another-intro-header{
+        font-size: 28px;
+    }
+
+}
+
+
+@media only screen and (min-width:425px) {
+    .intro-header{
+        font-size: 40px;    
+    }
+    .another-intro-header{
+        font-size: 40px;
+    }
+
+}
+
+
+@media only screen and (min-width:768px) {
+    .intro-header{
+        font-size: 35px;    
+    }
+    .another-intro-header{
+        font-size: 35px;
+    }
+
+}
+
+
+@media only screen and (min-width:1024px) {
+    .intro-header{
+        font-size: 50px;    
+    }
+    .another-intro-header{
+        font-size: 50px;
+    }
+
+}
+
+
+
+
+
+

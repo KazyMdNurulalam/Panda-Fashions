@@ -9,7 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -27,7 +28,7 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
@@ -38,7 +39,7 @@
                                     <a class="nav-link" href="#">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact us</a>
+                                    <a class="nav-link" href="#Contact-us">Contact us</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,19 +51,19 @@
 
         <!--Intro Section-->
         <section class="container ps-5">
-            <div class="row ">
-                <div class="col-md-6">
-                    <h1 class="intro-heading">Be the Penguins</h1>
-                    <h1 class="intro-heading-2">of Winter</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 p-4">
+                    <h1 class="intro-header fw-bold">Be the Penguins</h1>
+                    <h1 class="another-intro-header fw-bold">of Winter</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <button src="logo/shopping-cart 1.png" class="btn btn-success intro-btn"><span><svg
+                    <button src="logo/shopping-cart 1.png" class="btn btn-success confirmation-btn"><span><svg
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-cart" viewBox="0 0 16 16">
                                 <path
                                     d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg></span> Buy Now</button>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 p-4">
                     <img src="Images/profile.png" class="img-fluid w-75" alt="">
                 </div>
             </div>
@@ -72,14 +73,14 @@
 
     <main>
         <!--Product Block Woman Jacket-->
-        <section class="container mt-5">
-            <h2>WOMAN JACKET</h2>
+        <section class="container   pt-5">
+            <h2 class="mt-5 mb-4">WOMAN JACKET</h2>
             <div>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 Woman-jkt">
 
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="card h-100 col card-radius">
-                            <img src="Images/img1.png" class="card-img-top Woman-jkt-img " alt="...">
+                            <img src="Images/img1.png" class="card-img-top  " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Yellow Coat Jacket</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -87,7 +88,8 @@
                             </div>
                             <div class="card-footer d-flex justify-content-between card-footer">
                                 <h4 class="price">$234</h4>
-                                <button src="logo/shopping-cart 1.png" class="btn btn-success intro-btn"><span><svg
+                                <button src="logo/shopping-cart 1.png"
+                                    class="btn btn-success confirmation-btn "><span><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                             <path
@@ -97,9 +99,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="card h-100 col card-radius">
-                            <img src="Images/img2.png" class="card-img-top Woman-jkt-img" alt="...">
+                            <img src="Images/img2.png" class="card-img-top " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Ladies Jacket</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -107,7 +109,8 @@
                             </div>
                             <div class="card-footer d-flex justify-content-between card-footer">
                                 <h4 class="price">$234</h4>
-                                <button src="logo/shopping-cart 1.png" class="btn btn-success intro-btn"><span><svg
+                                <button src="logo/shopping-cart 1.png"
+                                    class="btn btn-success confirmation-btn"><span><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                             <path
@@ -117,9 +120,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="card h-100 col card-radius">
-                            <img src="Images/img3.png" class="card-img-top Woman-jkt-img" alt="...">
+                            <img src="Images/img3.png" class="card-img-top " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Woman Leather Jacket</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -127,7 +130,8 @@
                             </div>
                             <div class="card-footer d-flex justify-content-between card-footer">
                                 <h4 class="price">$234</h4>
-                                <button src="logo/shopping-cart 1.png" class="btn btn-success intro-btn"><span><svg
+                                <button src="logo/shopping-cart 1.png"
+                                    class="btn btn-success confirmation-btn"><span><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                             <path
@@ -142,14 +146,14 @@
         <!--Product Block Woman Jacket End-->
 
         <!--Product Block Man Jacket-->
-        <section class="container mt-5">
-            <h2>MAN JACKET</h2>
+        <section class="container mb-5 pt-5">
+            <h2 class="mt-5 mb-4">MAN JACKET</h2>
             <div>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 Woman-jkt">
 
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="card h-100 col card-radius">
-                            <img src="Images/image 11.png" class="card-img-top Woman-jkt-img " alt="...">
+                            <img src="Images/image 11.png" class="card-img-top  " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Snowboard Jacket Mens</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -157,7 +161,8 @@
                             </div>
                             <div class="card-footer d-flex justify-content-between card-footer">
                                 <h4 class="price">$234</h4>
-                                <button src="logo/shopping-cart 1.png" class="btn btn-success intro-btn"><span><svg
+                                <button src="logo/shopping-cart 1.png"
+                                    class="btn btn-success confirmation-btn"><span><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                             <path
@@ -167,9 +172,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="card h-100 col card-radius">
-                            <img src="Images/image 12.png" class="card-img-top Woman-jkt-img" alt="...">
+                            <img src="Images/image 12.png" class="card-img-top " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Man Leather Jackets</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -177,7 +182,8 @@
                             </div>
                             <div class="card-footer d-flex justify-content-between card-footer">
                                 <h4 class="price">$234</h4>
-                                <button src="logo/shopping-cart 1.png" class="btn btn-success intro-btn"><span><svg
+                                <button src="logo/shopping-cart 1.png"
+                                    class="btn btn-success confirmation-btn"><span><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                             <path
@@ -187,9 +193,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="card h-100 col card-radius">
-                            <img src="Images/image 13.png" class="card-img-top Woman-jkt-img" alt="...">
+                            <img src="Images/image 13.png" class="card-img-top " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Man Casual Jackets</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -197,7 +203,8 @@
                             </div>
                             <div class="card-footer d-flex justify-content-between card-footer">
                                 <h4 class="price">$234</h4>
-                                <button src="logo/shopping-cart 1.png" class="btn btn-success intro-btn"><span><svg
+                                <button src="logo/shopping-cart 1.png"
+                                    class="btn btn-success confirmation-btn"><span><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                             <path
@@ -212,14 +219,13 @@
         <!--Product Block Man Jacket End-->
 
         <!--About Section-->
-        <section class="container ps-5 mt-5 about">
-            <div class="row ">
-                <div class="col-md-6">
-                    <div class="card mb-3 about-border" style="max-width: 540px;">
+        <section class="container mt-5 about">
+            <div class="row pt-4 pb-5">
+                <div class="col-md-12 col-lg-6">
+                    <div class="card mb-3 card-border p-2" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="logo/image 12.png"
-                                    class="w-75 d-flex align-items-center justify-content-center" alt="...">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="logo/image 12.png" class="w-50 " alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -231,11 +237,10 @@
                         </div>
                     </div>
 
-                    <div class="card mb-3 about-border" style="max-width: 540px;">
+                    <div class="card mb-3 card-border p-2" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="logo/image 13.png"
-                                    class="w-75 d-flex align-items-center justify-content-center" alt="...">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="logo/image 13.png" class="w-50" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -246,11 +251,10 @@
                         </div>
                     </div>
 
-                    <div class="card mb-3 about-border" style="max-width: 540px;">
+                    <div class="card mb-3 card-border p-2" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="logo/image 14.png"
-                                    class="w-75 d-flex align-items-center justify-content-center" alt="...">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="logo/image 14.png" class="w-50" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -262,16 +266,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="logo/last-img.png" class="img-fluid" alt="">
+
+                <div class="col-md-6 p-2">
+                    <img src="logo/last-img.png" class="img-fluid w-100" alt="">
                 </div>
             </div>
+            <!--About Section End-->
         </section>
+
+        <!--Subscribe section-->
+        <section id="Contact-us"
+            class="container d-flex flex-column align-items-center carousel-bg mt-5 mb-5 p-5 rounded">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <h6>Get updates on sales, specials and more</h5>
+                    <input type="email" placeholder="Enter youre email ID"><br>
+                    <button class="btn btn-success text-white confirmation-btn">SUBMIT</button>
+            </div>
+        </section>
+        <!--Subscribe section End-->
+
+        <!--Footer section-->
+        <footer class="d-flex justify-content-center">
+            <small>©2021. Panda Commerce. All rights reserved. Kazy Md Nurul Alam, Bangladesh.</small>
+        </footer>
 
     </main>
 
     <!--javascript link-->
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
