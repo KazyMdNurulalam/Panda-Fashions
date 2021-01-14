@@ -1,0 +1,34 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.intro-heading, .price{
+    color: #FABE4C;
+}
+.intro-heading-2{
+    color: #363958;
+}
+.intro-btn{
+    background-color: #FA804C;
+    border: 1px solid #FA804C;
+    font-size: 20px;
+}
+.Woman-jkt-img{
+    height: 60%;
+    padding: 35px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+.price{
+    font-size: 30px;
+}
+.card-footer{
+    background-color: none;
+    border: 0;
+}
+.card-radius{
+    border-radius: 20px;
+    background: none;
+}
+.about-border{
+    border: none;
+}
